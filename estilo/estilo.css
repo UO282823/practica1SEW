@@ -1,0 +1,23 @@
+/*Hugo Pulido Pensado*/
+
+.h1{grid-area: header;
+    color: aquamarine;
+}
+
+.p{
+    grid-area: main;
+}
+.nav{
+    grid-area: menu;
+}
+.footer{
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header header header"
+    "menu menu main main main"
+    "menu footer footer footer";
+}

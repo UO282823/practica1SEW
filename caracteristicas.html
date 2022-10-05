@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Características</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <meta name ="author" content ="Hugo Pulido Pensado" />  
+    <meta name ="description" content ="Características tecnicas sobre node.js" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+    de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Características</h1>
+    <p>Estos son algunos aspectos técnicos de node.js:</p>
+    <ul>
+        <li> <strong>Concurrancia:</strong>  Node.js funciona con un modelo de evaluación de un único hilo de ejecución, usando entradas y 
+            salidas asíncronas las cuales pueden ejecutarse concurrentemente en un número de hasta cientos de miles sin 
+            incurrir en costos asociados al cambio de contexto.</li>
+        <li> <strong>V8:</strong> <a href="https://es.wikipedia.org/wiki/V8_(int%C3%A9rprete_de_JavaScript)" title="enlace a informacion sobre V8">V8</a> es el entorno de ejecución para JavaScript creado para Google Chrome. Es software libre desde 2008, está 
+            escrito en C++ y compila el código fuente JavaScript en código de máquina en lugar de interpretarlo en tiempo real.
+        </li>
+        <li> <strong>Módulos:</strong> Node.js incorpora varios "módulos básicos" compilados en el propio binario, como por ejemplo el módulo 
+            de red, que proporciona una capa para programación de red asíncrona y otros módulos fundamentales, como por ejemplo 
+            Path, FileSystem, Buffer, Timers y el de propósito más general Stream. Es posible utilizar módulos desarrollados por 
+            terceros, ya sea como archivos ".node" precompilados, o como archivos en javascript plano. Los módulos Javascript se 
+            implementan siguiendo la especificación CommonJS para módulos, utilizando una variable de exportación para dar a 
+            estos scripts acceso a funciones y variables implementadas por los módulos.</li>
+        <li>  <strong>Desarrollo homogéneo entre cliente y servidor:</strong>  Node.js puede ser combinado con una base de datos documental 
+            (por ejemplo, MongoDB o CouchDB) y bases de datos relacionales como MySQL, PostgreSQL, entre otros, lo que permite 
+            desarrollar en un entorno de desarrollo JavaScript unificado. Con la adaptación de los patrones para desarrollo del 
+            lado del servidor tales como MVC y sus variantes MVP, MVVM, etc. Node.js facilita la reutilización de código del 
+            mismo modelo de interfaz entre el lado del cliente y el lado del servidor.</li>
+        <li> <strong>Bucle de eventos:</strong>  Node.js se registra con el sistema operativo y cada vez que un cliente establece una conexión se 
+            ejecuta un callback. Dentro del entorno de ejecución de Node.js, cada conexión recibe una pequeña asignación de 
+            espacio de memoria dinámico, sin tener que crear un hilo de ejecución. A diferencia de otros servidores dirigidos 
+            por eventos, el bucle de gestión de eventos de Node.js no es llamado explícitamente sino que se activa al final de 
+            cada ejecución de una función callback. El bucle de gestión de eventos se termina cuando ya no quedan eventos por 
+            atender.</li>    
+    </ul>
+
+    <source src="multimedia/¿Qué es Node.js.mp4" type="video.mp4; codecs=">
+    <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
+    <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <nav>
+        <p><a title="Inicio" accesskey="I" tabindex="1" href="index.html">Inicio</a></p>
+        <p><a title="Versiones" accesskey="V" tabindex="2" href="versiones.html">Versiones</a></p>
+        <p><a title="Formulario" accesskey="O" tabindex="3" href="formulario.html">Opinión</a></p>
+   </nav>
+    
+</body>
+</html>
