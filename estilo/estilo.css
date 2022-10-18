@@ -1,16 +1,16 @@
 /*Hugo Pulido Pensado*/
 
-.h1{grid-area: header;
+h1{grid-area: header;
     color: aquamarine;
 }
 
-.p{
+p{
     grid-area: main;
 }
-.nav{
+nav{
     grid-area: menu;
 }
-.footer{
+footer{
     grid-area: footer;
 }
 
@@ -20,4 +20,8 @@
     "header header header header header"
     "menu menu main main main"
     "menu footer footer footer";
+}
+
+.container > h1{
+    grid-area: header;
 }
