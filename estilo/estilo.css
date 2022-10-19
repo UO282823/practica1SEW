@@ -21,7 +21,3 @@ footer{
     "menu menu main main main"
     "menu footer footer footer";
 }
-
-.container > h1{
-    grid-area: header;
-}

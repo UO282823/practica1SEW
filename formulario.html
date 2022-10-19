@@ -8,8 +8,7 @@
     <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
     <meta name ="author" content ="Hugo Pulido Pensado" />  
     <meta name ="description" content ="formulario para rellenar con opiniones del programa" />
-    <meta name ="keywords" content ="aquí cada documento debe tener la lista
-    de las palabras clave del mismo separadas por comas" />
+    <meta name ="keywords" content ="Node, Node.js, Node opiniones, opinión, Opiniones node" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
 
@@ -30,18 +29,36 @@
 
     </header>
     
+    <main>
+
+        <h2>Opiniones</h2>
+        <p>A continuación podrá rellenar un formulario con su opinión sobre está aplicación</p>
+        <p>Nombre: <input type="text"></p>
+        <p>Apellidos: <input type="text"></p>
+        <p>Correo electrónico: <input type="email"></p>
+        <p>Fecha de nacimiento: <input type="date" ></p>
+        <p>Te parece útil este programa:</p>
+        <p><input type="radio" name="util" id="Si" value="Si"><label for="Si">Si</label><br>
+        <input type="radio" name="util" id="No" value="No"><label for="No">No</label></p>
+        <p>Introduce una opinión: <br><textarea cols="30" rows="10"></textarea></p>
+        <p><input type="button" value="Enviar"></p>
+
+        <article>
+
+            <p>Existe una comunidad muy actuva de desarroladores de Node.js que se comnica a través de grupos de discusión,
+                 <a href="https://groups.google.com/g/nodejs?pli=1">nodejs</a> y el canal IRC#node en freencode. La comunidad
+                 se reune en <a href="http://nodeconf.com/">nodeconf</a>, una convención de desarroladores centrada en Node.js.
+            </p>
+        </article>
+
+        
+        
+    </main>
     
-    <h2>Opiniones</h2>
-    <p>A continuación podrá rellenar un formulario con su opinión sobre está aplicación</p>
-    <p>Nombre: <input type="text"></p>
-    <p>Apellidos: <input type="text"></p>
-    <p>Correo electrónico: <input type="email"></p>
-    <p>Fecha de nacimiento: <input type="date" ></p>
-    <p>Te parece útil este programa:</p>
-    <p><input type="radio" name="util" id="Si" value="Si"><label for="Si">Si</label><br>
-    <input type="radio" name="util" id="No" value="No"><label for="No">No</label></p>
-    <p>Introduce una opinión: <br><textarea cols="30" rows="10"></textarea></p>
-    <p><input type="button" value="Enviar"></p>
+    <footer>
+        <a href="https://nodejs.org/es/" title="enlace a la página de node.js">Página de Node.js</a>  
+        <img src="multimedia/node.png" alt="Logo node.js" /> 
+    </footer> 
 
    
     
