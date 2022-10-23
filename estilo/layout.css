@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+video{
+    width: 60%;
+    height: 60%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 500px;
+    height: auto;
+}
+
+@media only screen and (max-width: 25em) {
+    footer img{
+        width: 300px;
+        height: auto;
+    }
+}

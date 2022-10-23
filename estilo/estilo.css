@@ -1,23 +1,46 @@
 /*Hugo Pulido Pensado*/
 
-h1{grid-area: header;
-    color: aquamarine;
+body{
+    background-color: lightsteelblue;
+    font-family: "Monaco", sans-serif;
+    color: black;
+
 }
 
-p{
-    grid-area: main;
-}
-nav{
-    grid-area: menu;
-}
-footer{
-    grid-area: footer;
+h1,h2{
+    color: green;
+
 }
 
-.container{
-    display: grid;
-    grid-template-areas:
-    "header header header header header"
-    "menu menu main main main"
-    "menu footer footer footer";
+
+
+section{
+    border-style: solid;
+    border-color: green;
+    border-radius: 2em;
+    width: fit-content;
 }
+
+article{
+    width: fit-content;
+}
+
+nav a{
+    background-color: green;
+    color: white;
+    border-radius: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

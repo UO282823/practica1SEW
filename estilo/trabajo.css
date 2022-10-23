@@ -4,6 +4,7 @@ body{
     background-color: #ffffff;
     color: green;
     display: inline;
+
 }
 
 article{
@@ -15,10 +16,14 @@ article{
     
 }
 
-.container{
-    display: grid;
-    grid-template-areas:
-    "header header header header header"
-    "menu menu main main main"
-    "menu footer footer footer";
+main{
+    display: flex;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+   flex-basis: auto;
+   align-items: center;
 }
