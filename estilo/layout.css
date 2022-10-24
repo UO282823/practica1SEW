@@ -1,40 +1,42 @@
+/*Especifidad: 001*/
 body{
     display: flex;
     flex-direction: column;
 
 }
-
+/*Especifidad: 001*/
 main{
     display: flex;
     flex-direction: column;
 }
-
+/*Especifidad: 001*/
 section{
     width: fit-content;
 }
-
+/*Especifidad: 001*/
+article{
+    display: flex;
+    flex-direction: column;
+}
+/*Especifidad: 001*/
 footer{
     display: flex;
     flex-direction: column;
 }
 
-
+/*Especifidad: 001*/
 nav{
     display:flex;
     justify-content: space-around;
 }
 
-article{
-    display: flex;
-    flex-direction: column;
-}
-
-
+/*Especifidad: 001*/
 video{
     width: 60%;
     height: auto;
 }
 
+/*Especifidad: 001*/
 img{
     width: 40%;
     height: auto;

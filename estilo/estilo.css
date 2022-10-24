@@ -1,19 +1,22 @@
 /*Hugo Pulido Pensado*/
 
+/*Especifidad: 001*/
 body{
     background-color: black;
     font-family: "Monaco", sans-serif;
     color: white;
-
+    font-size: 1em;
+    margin: 01em;
+    
 }
 
+/*Especifidad: 001*/
 h1,h2{
     color: green;
-
 }
 
 
-
+/*Especifidad: 001*/
 section{
     border-style: solid;
     border-color: green;
@@ -21,23 +24,42 @@ section{
     width: fit-content;
 }
 
-
-
-nav a{
-    background-color: green;
-    color: white;
-    border-radius: 2em;
-
-}
+/*Especifidad: 001*/
 a{
     color: white;
 }
 
+/*Especifidad: 002*/
+nav a{
+    background-color: green;
+    border-radius: 0.6em;
+    padding: 0.5em;
+}
+
+/*Especifidad: 001*/
 table, th, td,tr {
     border-width: 0.0625em ; 
     border-style: solid;;
     border-color: green;
+    margin: 0.5em;
 }
+
+/*Especifidad: 001*/
+dt{
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+/*Especifidad: 001*/
+p{
+    margin: 0.4em;
+}
+
+/*Especifidad: 001*/
+input{
+    margin: 1em;
+}
+
 
 
 
