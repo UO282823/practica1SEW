@@ -31,19 +31,48 @@
     </header>
     
     <main>
-
+       
         <section>
             <h2>Opiniones</h2>
             <p>A continuación podrá rellenar un formulario con su opinión sobre está aplicación</p>
-            <p>Nombre: <input type="text"></p>
-            <p>Apellidos: <input type="text"></p>
-            <p>Correo electrónico: <input type="email"></p>
-            <p>Fecha de nacimiento: <input type="date" ></p>
-            <p>Te parece útil este programa:</p>
-            <p><input type="radio" name="util" id="Si" value="Si"><label for="Si">Si</label><br>
-            <input type="radio" name="util" id="No" value="No"><label for="No">No</label></p>
-            <p>Introduce una opinión: <br><textarea cols="30" rows="10"></textarea></p>
-            <p><input type="button" value="Enviar"></p>
+            <form name="opninion">
+                <p><label for="nombre">Nombre:</label> 
+                    <input id=" nombre" type="text">
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos:</label>  
+                    <input id="apellidos" type="text">
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label>  
+                    <input id="correo" type="email">
+                </p>
+                <p>
+                    <label for="fecha">Fecha de nacimiento: </label> 
+                    <input id="fecha" type="date" >
+                </p>
+                <fieldset>
+                    <legend>Te parece útil este programa:</legend>
+                    <p>
+                        <input type="radio" name="util" id="Si" value="Si">
+                        <label for="Si">Si</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="util" id="No" value="No">
+                        <label for="No">No</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <label for="texto">Introduce una opinión:</label> 
+                <p>
+                <textarea id="texto" cols="30" rows="10"></textarea>
+            </p>
+                <input type="button" value="Enviar">
+            </p>
+
+            </form> 
+           
+            
 
         </section>
         
