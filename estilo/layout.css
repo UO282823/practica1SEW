@@ -9,13 +9,19 @@ main{
     flex-direction: column;
 }
 
+section{
+    width: fit-content;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
 
 
-
-
-video{
-    width: 60%;
-    height: 60%;
+nav{
+    display:flex;
+    justify-content: space-around;
 }
 
 article{
@@ -24,21 +30,29 @@ article{
 }
 
 
-
-
-nav{
-    display:flex;
-    justify-content: center;
-}
-
-footer img{
-    width: 500px;
+video{
+    width: 60%;
     height: auto;
 }
 
-@media only screen and (max-width: 25em) {
-    footer img{
-        width: 300px;
+img{
+    width: 40%;
+    height: auto;
+}
+
+
+@media only screen and (max-width:700px){
+    video{
+        width: 100%;
         height: auto;
     }
 }
+
+
+
+
+
+
+
+
+

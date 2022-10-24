@@ -21,9 +21,7 @@ section{
     width: fit-content;
 }
 
-article{
-    width: fit-content;
-}
+
 
 nav a{
     background-color: green;
@@ -33,6 +31,12 @@ nav a{
 }
 a{
     color: white;
+}
+
+table, th, td,tr {
+    border-width: 0.0625em ; 
+    border-style: solid;;
+    border-color: green;
 }
 
 
