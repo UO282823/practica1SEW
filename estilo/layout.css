@@ -2,6 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 01em;
 
 }
 /*Especifidad: 001*/
@@ -11,7 +12,10 @@ main{
 }
 /*Especifidad: 001*/
 section{
+    display: flex;
+    flex-direction: column;
     width: fit-content;
+    padding: 0.5em;
 }
 /*Especifidad: 001*/
 article{
@@ -29,6 +33,10 @@ nav{
     display:flex;
     justify-content: space-around;
 }
+/*Especifidad: 002*/
+nav a{
+    padding: 0.5em;
+}
 
 /*Especifidad: 001*/
 video{
@@ -40,6 +48,15 @@ video{
 img{
     width: 40%;
     height: auto;
+}
+/*Especifidad: 001*/
+dt{
+    margin: 0.5em;
+}
+
+/*Especifidad: 001*/
+p{
+    margin: 0.4em;
 }
 
 

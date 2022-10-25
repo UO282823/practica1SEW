@@ -1,4 +1,7 @@
-/*Hugo Pulido Pensado*/
+/*
+Hugo Pulido Pensado
+UO282823
+*/
 
 /*Especifidad: 001*/
 body{
@@ -6,7 +9,7 @@ body{
     font-family: "Monaco", sans-serif;
     color: white;
     font-size: 1em;
-    margin: 01em;
+   
     
 }
 
@@ -20,9 +23,7 @@ h1,h2{
 section{
     border-style: solid;
     border-color: green;
-    border-radius: 2em;
-    width: fit-content;
-    padding: 0.5em;
+    border-radius: 2em;  
 }
 
 /*Especifidad: 001*/
@@ -34,7 +35,7 @@ a{
 nav a{
     background-color: green;
     border-radius: 0.6em;
-    padding: 0.5em;
+    
 }
 
 /*Especifidad: 001*/
@@ -47,13 +48,10 @@ table, th, td,tr {
 /*Especifidad: 001*/
 dt{
     font-size: 1.2em;
-    margin: 0.5em;
+    
 }
 
-/*Especifidad: 001*/
-p{
-    margin: 0.4em;
-}
+
 
 
 
